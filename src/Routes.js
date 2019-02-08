@@ -7,7 +7,7 @@ class Routes extends Component {
     return (
       <Switch>
         <Route path="/" exact render={() => <Work />} />
-        <Route path="/Refactor" exact render={() => <Refactor />} />
+        <Route path="/refactor" exact render={() => <Refactor />} />
         <Redirect to="/" />
       </Switch>
     );
